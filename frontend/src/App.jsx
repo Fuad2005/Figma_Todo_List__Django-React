@@ -66,6 +66,10 @@ function App() {
 
         </div>
       </todoContext.Provider>
+      <footer style={{top: (750 + todos.length * 70)}}>
+        <p>Designed by Matheus Susko</p>
+        <p>Developed by Fuad Gasimov</p>
+      </footer>
     </div>
   );
 }

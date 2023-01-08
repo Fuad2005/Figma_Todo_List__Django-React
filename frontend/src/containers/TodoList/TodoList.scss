@@ -1,6 +1,6 @@
 .controls{
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,5 +18,18 @@
     }
     .delete-all{
         height: 40px;
+        padding: 0 14px;
+    }
+}
+
+button {
+    background-color: #4EA8DE;
+    border: none;
+    margin-bottom: 10px;
+    transition: 0.2s ease-out;
+    border-radius: 50px;
+
+    &:hover {
+        background-color: #5e60db;
     }
 }
