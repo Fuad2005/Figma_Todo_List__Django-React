@@ -1,0 +1,22 @@
+.controls{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .un-select-all{
+        display: flex;
+        flex-direction: column;
+        width: 90px;
+        height: 100%;
+        justify-content: space-around;
+        .select-all, .unselect-all {
+            height: 40px;
+        }
+    }
+    .delete-all{
+        height: 40px;
+    }
+}
